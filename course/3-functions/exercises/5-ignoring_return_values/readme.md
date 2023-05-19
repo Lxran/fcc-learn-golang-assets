@@ -12,6 +12,7 @@ func getPoint() (x int, y int) {
 // ignore y value
 x, _ := getPoint()
 ```
+
 Even though `getPoint()` returns two values, we can capture the first one and ignore the second.
 
 ## Why would you ignore a return value?
